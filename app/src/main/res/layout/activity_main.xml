@@ -22,7 +22,7 @@
         android:layout_marginTop="12dp"
         android:text="Select Private Key" />
 		
-		
+<!-- Pole do wprowadzenia hasła do klucza		
 	<EditText
         android:id="@+id/passwordEditText"
         android:layout_width="match_parent"
@@ -31,12 +31,12 @@
         android:layout_marginTop="12dp"
         android:inputType="textPassword"
         android:hint="Password" />
-
+-->
     <Button
         android:id="@+id/saveButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/passwordEditText"
+        android:layout_below="@id/selectKeyFileButton"
         android:layout_marginTop="12dp"
         android:text="Save" />
 		
@@ -47,8 +47,8 @@
         android:layout_below="@id/saveButton"
         android:layout_marginTop="12dp"
         android:text="Execute" />
+	
 <!-- Switch do uruchamiania funkcjonalności w tle
-
 	<Switch
 		android:id="@+id/switch1"
 		android:layout_width="197dp"
@@ -59,9 +59,9 @@
 		android:layout_marginBottom="6dp"
 		android:layout_toEndOf="@id/executeButton"
 		android:text="BackgroundService"
-		tools:ignore="UseSwitchCompatOrMaterialXml" />
-		
+		tools:ignore="UseSwitchCompatOrMaterialXml" />		
 -->
+	
 	<androidx.core.widget.NestedScrollView
 		android:id="@+id/nestedScrollView"
 		android:layout_width="match_parent"
